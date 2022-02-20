@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    background: linear-gradient(to right,#33ccff 0%,#ff99cc 100%);
+} 
+.container {
+    width: 50%;
+    margin: 20px auto;
+    border: 3px solid;
+    border-radius: 15px;
+    padding: 20px;
+} 
+.input-section{
+    display: flex;
+} 
+.input-section input{
+    flex: 1;
+    padding: 5px;
+    
+}
+.input-section button{
+    background-color: crimson;
+    border: unset;
+    color: #fff;
+}
+.list-section ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin-top: 10px;
+}
+.list-section ul li{
+    border: 3px solid;
+    display: flex;
+    justify-content: space-between;
+}
+.list-section ul li .close{
+    background-color:blue orange;
+    padding: 15px;
+    color: #fff;
+}
+.input-section button{
+    border-radius: 10px;
+}
+h1{
+    margin-left: 650px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
